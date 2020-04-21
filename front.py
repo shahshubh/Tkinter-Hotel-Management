@@ -111,22 +111,22 @@ scrl.configure(command=list1.yview, bg="black")
 
 list1.bind('<<ListboxSelect>>', get_selected_row)
 
-b1=Button(window,text="view all", width=12, command=view_command,bg="#6610F2",fg="white",font="Times 14 italic")
+b1=Button(window,text="view all", width=12, command=view_command,bg="grey",fg="white",font="Times 14 italic")
 b1.grid(row=7,column=0,padx=10,pady=10)
 
-b2=Button(window,text="add entry", width=12, command=add_command,bg="#E6C229",fg="black",font="Times 14 italic")
+b2=Button(window,text="add entry", width=12, command=add_command,bg="grey",fg="white",font="Times 14 italic")
 b2.grid(row=8,column=0,padx=10,pady=10)
 
-b3=Button(window,text="delete entry", width=12, command=delete_command, bg="#D11149",fg="white",font="Times 14 italic")
+b3=Button(window,text="delete entry", width=12, command=delete_command, bg="grey",fg="white",font="Times 14 italic")
 b3.grid(row=9,column=0,padx=10,pady=10)
 
-b4=Button(window,text="search", width=12, command=search_command,bg="#389AD6",fg="white",font="Times 14 italic")
+b4=Button(window,text="search", width=12, command=search_command,bg="grey",fg="white",font="Times 14 italic")
 b4.grid(row=7,column=1,padx=10,pady=10)
 
-b5=Button(window,text="update", width=12, command=update_command,bg="#F17105",fg="white",font="Times 14 italic")
+b5=Button(window,text="update", width=12, command=update_command,bg="grey",fg="white",font="Times 14 italic")
 b5.grid(row=8,column=1,padx=10,pady=10)
 
-b6=Button(window,text="clear", width=12, command=clear_command,bg="white",fg="black",font="Times 14 italic")
+b6=Button(window,text="clear", width=12, command=clear_command,bg="grey",fg="white",font="Times 14 italic")
 b6.grid(row=9,column=1,padx=10,pady=10)
 
 window.mainloop()
